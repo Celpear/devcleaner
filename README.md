@@ -2,6 +2,12 @@
 
 This script is designed to help clean up various common build and cache directories in a project, such as `node_modules`, `build` folders, and caches for Poetry and Pip. It's intended for macOS and should be used with caution.
 
+## ⚠️ Important Notes
+
+- 🚨 **Use at your own risk**: The script will delete files and directories in your project. It is recommended to review and back up any important data before using the script!
+- 🔍 **Verify before running**: The script can potentially remove important data. Be sure to double-check your setup before running the script.
+
+
 ## Features
 
 - Deletes `node_modules` directories in the specified project.
@@ -31,7 +37,3 @@ Once the dependencies are installed, you can run the script as follows:
 ```
    This will show the help message and explain the script's usage in more detail.
 
-## Important Notes
-
-- **Use at your own risk**: The script will delete files and directories in your project. It is recommended to review and back up any important data before using the script.
-- **Verify before running**: The script can potentially remove important data. Be sure to double-check your setup before running the script.
