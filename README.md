@@ -17,7 +17,7 @@ Once the dependencies are installed, you can run the script as follows:
 ```bash
    pip install -r requirements.txt && python3 devcleaner.py <directory_path>
 ```
-   Replace `<directory_path>` with the path of the project you want to clean.
+   Replace `<directory_path>` with the path of the project or Git Folder you want to clean.
 
 2. If you also want to clear both Poetry and Pip caches, use the `--clear-cache` flag:
 ```bash
