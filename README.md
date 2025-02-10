@@ -32,7 +32,7 @@ Once the dependencies are installed, you can run the script as follows:
 ```
    This will delete both the Poetry virtualenvs cache and purge Pip's cache.
 
-3. For help or more options, you can use the `-h` or `--help` flag:
+3. For help or more options, you can use the `--help` flag:
 ```bash
    pip install -r requirements.txt && python3 devcleaner.py --help
 ```
